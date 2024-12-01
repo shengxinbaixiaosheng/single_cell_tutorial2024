@@ -14,9 +14,6 @@ release = 'v0.1'
 import os
 import sys
 
-# 确保 Sphinx 使用正确的输出目录
-build_dir = os.environ.get('READTHEDOCS_OUTPUT', '_build')
-html_dir = os.path.join(build_dir, 'html')
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
